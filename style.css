@@ -6,7 +6,7 @@ body{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -16,6 +16,9 @@ body{
     width: 100%;
 }
 h1{
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
 }
 .orange-color{
@@ -27,4 +30,10 @@ h1{
     background-image: linear-gradient(orange,tomato);
     border-radius: 5px;
     color: white;
+}
+.web-dev-container{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
