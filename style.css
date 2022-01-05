@@ -31,9 +31,40 @@ h2{
     border-radius: 5px;
     color: white;
 }
+
 .web-dev-container{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.ami{
+    display: flex;    
+}
+.experiences-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px;
+}
+#ami1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;  
+}
+#ami2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,gray);
+    border-image-slice: 1;  
+}
+footer p{
+    text-align: center;
 }
